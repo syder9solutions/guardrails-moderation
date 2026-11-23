@@ -38,7 +38,7 @@ sound, and there are three genuine defects behind it.**
 ## 2. Commands actually executed
 
 ```bash
-cd .
+cd guardrails-moderation
 source .venv/bin/activate        # Python 3.14.9
 
 PYTHONPATH= python -m pytest tests/ -q                 # 99 passed
