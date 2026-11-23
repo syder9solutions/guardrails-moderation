@@ -218,7 +218,7 @@ mutation test demonstrating the gates now fail when a detector is disabled.
 ## 6. Reproduction
 
 ```bash
-cd . && source .venv/bin/activate
+cd guardrails-moderation && source .venv/bin/activate
 PYTHONPATH= python probe_10_guardrails_defects.py ; echo "exit=$?"
 # exit 0 = defects present (D1a,D1b,D2,D3,D4,D5,D6 reproduced; D3b,D7 clean)
 ```

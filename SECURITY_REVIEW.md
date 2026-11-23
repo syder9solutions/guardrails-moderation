@@ -102,7 +102,7 @@ decision and its rationale are documented in `_ssn_context_ok` and asserted in
 ## 7. Verification commands
 
 ```bash
-cd . && source .venv/bin/activate
+cd guardrails-moderation && source .venv/bin/activate
 PYTHONPATH= python -m pytest -q                                   # 169 passed
 PYTHONPATH= python probe_10_guardrails_defects.py                 # exit 2, 0 defects
 PYTHONPATH= python security_review_probe.py                       # exit 0, CLEAN
